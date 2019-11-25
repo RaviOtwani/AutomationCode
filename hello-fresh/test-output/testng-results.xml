@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HelloFresh Suite" duration-ms="49518" started-at="2019-11-22T14:51:54Z" finished-at="2019-11-22T14:52:43Z">
+    <groups>
+    </groups>
+    <test name="HelloFresh2" duration-ms="31060" started-at="2019-11-22T14:51:54Z" finished-at="2019-11-22T14:52:25Z">
+      <class name="com.test.script.Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.script.Login@28d25987]" name="setUp" is-config="true" duration-ms="21862" started-at="2019-11-22T14:51:54Z" finished-at="2019-11-22T14:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:com.test.script.Login@28d25987]" name="logInTest" duration-ms="8361" started-at="2019-11-22T14:52:16Z" finished-at="2019-11-22T14:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.test.script.Login@28d25987]" name="screenShot" is-config="true" duration-ms="807" started-at="2019-11-22T14:52:24Z" finished-at="2019-11-22T14:52:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInTest status=SUCCESS method=Login.logInTest()[pri:0, instance:com.test.script.Login@28d25987] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- com.test.script.Login -->
+    </test> <!-- HelloFresh2 -->
+    <test name="HelloFresh" duration-ms="32655" started-at="2019-11-22T14:51:54Z" finished-at="2019-11-22T14:52:26Z">
+      <class name="com.test.script.CreateAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.script.CreateAccountTest@396a51ab]" name="setUp" is-config="true" duration-ms="22033" started-at="2019-11-22T14:51:54Z" finished-at="2019-11-22T14:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:com.test.script.CreateAccountTest@396a51ab]" name="logInTest" duration-ms="9849" started-at="2019-11-22T14:52:16Z" finished-at="2019-11-22T14:52:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.test.script.CreateAccountTest@396a51ab]" name="screenShot" is-config="true" duration-ms="748" started-at="2019-11-22T14:52:26Z" finished-at="2019-11-22T14:52:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInTest status=SUCCESS method=CreateAccountTest.logInTest()[pri:0, instance:com.test.script.CreateAccountTest@396a51ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- com.test.script.CreateAccountTest -->
+    </test> <!-- HelloFresh -->
+    <test name="HelloFresh1" duration-ms="49518" started-at="2019-11-22T14:51:54Z" finished-at="2019-11-22T14:52:43Z">
+      <class name="com.test.script.CheckOut">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.script.CheckOut@1d057a39]" name="setUp" is-config="true" duration-ms="22776" started-at="2019-11-22T14:51:54Z" finished-at="2019-11-22T14:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkoutTest()[pri:0, instance:com.test.script.CheckOut@1d057a39]" name="checkoutTest" duration-ms="25840" started-at="2019-11-22T14:52:17Z" finished-at="2019-11-22T14:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.test.script.CheckOut@1d057a39]" name="screenShot" is-config="true" duration-ms="877" started-at="2019-11-22T14:52:42Z" finished-at="2019-11-22T14:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutTest status=SUCCESS method=CheckOut.checkoutTest()[pri:0, instance:com.test.script.CheckOut@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- com.test.script.CheckOut -->
+    </test> <!-- HelloFresh1 -->
+  </suite> <!-- HelloFresh Suite -->
+</testng-results>

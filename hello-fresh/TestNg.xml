@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="3" verbose="1" name="HelloFresh Suite" annotations="JDK" parallel="tests">
+         
+  <test name="HelloFresh">
+	 <classes>
+	   <class name="com.test.script.CreateAccountTest"/>
+	 </classes>
+
+   </test>
+   <test name="HelloFresh1">
+	 <classes>
+	   <class name="com.test.script.CheckOut"/>
+	   
+	 </classes>
+
+   </test>
+   <test name="HelloFresh2">
+	 <classes>
+	  <class name="com.test.script.Login"/>
+	 </classes>
+
+   </test>
+</suite>
